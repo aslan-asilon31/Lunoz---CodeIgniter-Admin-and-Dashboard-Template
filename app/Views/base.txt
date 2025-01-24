@@ -1,0 +1,15 @@
+<?= $this->include("partials/main") ?>
+
+<?php echo view("partials/title-meta", array("title" => "Dashboard")) ?>
+
+<?= $this->include("partials/head-css") ?>
+
+<?= $this->include("partials/sidenav") ?>
+
+<?= $this->include("partials/topbar") ?>
+
+<?php echo view("partials/page-title", array("title" => "Avatars", "subtitle" => "Base UI")) ?>
+
+<?= $this->include("partials/footer") ?>
+
+<?= $this->include("partials/footer-scripts") ?>
